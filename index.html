@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>SVG & Canvas Painter Online</title>
+  <meta name="description" content="SVG & Canvas Painter Online">
+  <meta name="author" content="Sergey Rastorguev">
+  <meta name="keywords" content="svg, painter, online, create, browser, vector">
+
+  <link href="/css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/svg-painter.css">
+</head>
+<body>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="windowControl" viewBox="0 0 20 20">
+      <rect width="20px" height="3px" rx="2px" />
+      <rect width="20px" y="5px" height="3px" rx="2px" />
+      <rect width="20px" y="10px" height="3px" rx="2px" />
+      <path d="M 0 0, L 20 20, M 20 0, L 0 20" fill="transparent" stroke="currentColor" stroke-width="3px" />
+    </symbol>
+  </defs>
+</svg>
+<canvas id="canv"></canvas>
+<div id="controlBox">
+  <div class="frame">
+    <h1>Layers</h1>
+    <svg class="menuControl" id="layersWindow" width="20px" height="20px">
+      <use xlink:href="#windowControl" />
+    </svg>
+    <p></p>
+    <select id="layers" size="7"></select>
+    <div>
+      <input type="button" id="moveUp" value="Up">
+      <input type="button" id="moveDown" value="Down">
+      <input type="button" id="undo" value="Undo">
+      <input type="button" id="startNew" value="New">
+      <input type="button" id="deleteCurrent" value="Delete">
+    </div>
+  </div>
+  <div class="frame">
+    <h1>Options</h1>
+    <svg class="menuControl" id="optionsWindow" width="20px" height="20px">
+      <use xlink:href="#windowControl" />
+    </svg>
+    <p></p>
+    <div>
+      <input type="checkbox" id="use3Dtouch" checked>
+      <label for="use3Dtouch">Use 3D touch on mobile devices to position and pin vector points.</label>
+    </div>
+    <div>
+      <input type="checkbox" id="mirrorX" checked>
+      <label for="mirrorX">Mirror about x-axis.</label>
+    </div>
+    <div>
+      <input type="checkbox" id="mirrorY">
+      <label for="mirrorY">Mirror about y-axis.</label>
+    </div>
+    <div>
+      <input type="checkbox" id="rotate">
+      <label for="rotate">Animate rotation about origin.</label>
+    </div>
+    <div>
+      <input type="checkbox" id="snap" checked>
+      <label for="snap">Snap to grid.</label>
+      <label for="snapValue">Size:</label>
+      <input type="number" id="snapValue" min="1" value="10" style="width:3em">
+    </div>
+  </div>
+  <div class="frame">
+    <h1>Output</h1>
+    <svg class="menuControl" id="outputWindow" width="20px" height="20px">
+      <use xlink:href="#windowControl" />
+    </svg>
+    <p>Choose one of the two buttons below to receive code you may copy-and-paste into your project.</p>
+    <p>Use the scale setting to be able to design vector images larger, where they are easier to manipulate, then multiply the image dimension smaller for output.</p>
+    <p>
+      <input type="number" id="scale" value="1" min="0.1" step="0.1" style="width:3em">
+      <label for="scale">Scale</label>
+    </p>
+    <input type="button" id="saveCanvas" value="Canvas">
+    <input type="button" id="saveSVG" value="SVG">
+    <div>
+      <textarea id="output"></textarea>
+    </div>
+  </div>
+</div>
+<a href="http://devmuerto.com" class="devmuerto-logo-corner"></a>
+
+<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="js/svg-painter.js"></script>
+</body>
+</html>

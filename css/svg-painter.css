@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, '.SFNSText-Regular', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', sans-serif;
+}
+
+html,
+body,
+canvas,
+#controlBox,
+body > svg {
+  position: absolute;
+}
+
+html,
+body,
+canvas,
+#output,
+select,
+#controlBox {
+  width: 100%;
+}
+
+#controlBox {
+  height: 0;
+}
+
+.frame,
+.frame > h1,
+input[type=button],
+select,
+option {
+  color: rgba(0, 0, 0, 1);
+}
+
+.frame,
+input[type=button],
+select {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.frame,
+input[type=button],
+select {
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+.frame,
+input[type=button] {
+  margin: 3px;
+}
+
+select {
+  text-align: right;
+}
+
+html,
+body,
+canvas {
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.frame {
+  padding: 3px;
+  max-width: 354px;
+  float: left;
+}
+
+.frame > h1 {
+  margin: 0;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#deleteCurrent,
+.menuControl {
+  float: right;
+}
+
+.menuControl {
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+#output {
+  height: 30em;
+  font-family: monospace;
+  background-color: #69f;
+  color: white;
+}
+
+
+
+
+.devmuerto-logo-corner{box-sizing:content-box;display:block;position:fixed;top:15px;right:15px;height:73px;width:73px;background-color:#271900;background-image:url(https://raw.githubusercontent.com/Zagorakiss/zagorakiss.github.io/master/assets/devmuerto-logo-codepen.png);opacity:.4;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;border-radius:20px;border:2px dashed orange}.devmuerto-logo-corner:hover{opacity:1;-webkit-animation:rubberBand 1s;animation:rubberBand 1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
