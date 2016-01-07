@@ -101,7 +101,11 @@ canvas {
 }
 
 
+/*Pig*/
+.donate-pig {display: block; width: 66px; height: 66px; position: fixed; bottom: 10px; right: 10px;}
+.donate-pig .icon {transition: all 0.4s ease;}
+.donate-pig:hover .icon{color: #FF7A7B;}
 
-
+/*Logo*/
 .devmuerto-logo-corner{box-sizing:content-box;display:block;position:fixed;top:15px;right:15px;height:73px;width:73px;background-color:#271900;background-image:url(https://raw.githubusercontent.com/Zagorakiss/zagorakiss.github.io/master/assets/devmuerto-logo-codepen.png);opacity:.4;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;border-radius:20px;border:2px dashed orange}.devmuerto-logo-corner:hover{opacity:1;-webkit-animation:rubberBand 1s;animation:rubberBand 1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
 

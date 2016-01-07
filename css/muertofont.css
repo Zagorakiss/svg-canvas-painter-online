@@ -1,0 +1,262 @@
+@font-face {
+	font-family: 'muertofont';
+	src:url('/fonts/muertofont.eot?nwmsa');
+	src:url('/fonts/muertofont.eot?nwmsa#iefix') format('embedded-opentype'),
+		url('/fonts/muertofont.ttf?nwmsa') format('truetype'),
+		url('/fonts/muertofont.woff?nwmsa') format('woff'),
+		url('/fonts/muertofont.svg?nwmsa#muertofont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'muertofont' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 6.6rem;
+	color: #271900;
+
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+.social .icon {
+	font-size: 3.3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+footer .social .icon {
+	font-size: 3.3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #ffa500;
+}
+
+
+.social .icon:hover {
+	color: #336d30;
+	-webkit-animation: rubberBand 1s;
+  	animation: rubberBand 1s;
+ 	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+}
+
+
+
+
+.payways .icon {
+	font-size: 33px;
+	color: #ffa500;
+	transition: all 0.3s ease;
+}
+
+
+.pay-btn .icon {
+	font-size: 26px;
+	color: #ffa500;
+}
+
+.pay-btn:hover .icon {
+	color: #271900;
+}
+
+
+
+.my-work__icons .icon {
+	font-size: 10vh;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+
+
+.menu__link .icon {
+	color: #ffa500;
+	font-size: 25px;
+}
+
+.menu__link--external .icon {
+	color: #ffa500;
+	font-size: 17px;
+}
+
+.menu__link--external .icon-new-tab {
+	font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+	.menu__link .icon {
+	font-size: 20px;
+	}
+	.menu__link--external .icon {
+	font-size: 15px;
+	}
+	.menu__link--external .icon-new-tab {
+	font-size: 10px;
+	}
+}
+
+
+
+
+
+.icon-barcode:before {
+    content: "\f02a";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-google-plus:before {
+    content: "\f0d5";
+}
+.icon-terminal:before {
+    content: "\f120";
+}
+.icon-location-arrow:before {
+    content: "\f124";
+}
+.icon-skype:before {
+    content: "\f17e";
+}
+.icon-vk:before {
+    content: "\f189";
+}
+.icon-ra:before {
+    content: "\f1d0";
+}
+.icon-rebel:before {
+    content: "\f1d0";
+}
+.icon-empire:before {
+    content: "\f1d1";
+}
+.icon-ge:before {
+    content: "\f1d1";
+}
+.icon-paper-plane-o:before {
+    content: "\f1d9";
+}
+.icon-send-o:before {
+    content: "\f1d9";
+}
+.icon-paypal:before {
+    content: "\f1ed";
+}
+.icon-cc-visa:before {
+    content: "\f1f0";
+}
+.icon-cc-mastercard:before {
+    content: "\f1f1";
+}
+.icon-copyright:before {
+    content: "\f1f9";
+}
+.icon-at:before {
+    content: "\f1fa";
+}
+.icon-mug:before {
+    content: "\e90c";
+}
+.icon-lab:before {
+    content: "\e902";
+}
+.icon-radio:before {
+    content: "\e903";
+}
+.icon-spaceinvaders:before {
+    content: "\e904";
+}
+.icon-grid:before {
+    content: "\e90e";
+}
+.icon-pig:before {
+    content: "\e900";
+}
+.icon-plane:before {
+    content: "\e901";
+}
+.icon-ticket:before {
+    content: "\e905";
+}
+.icon-briefcase:before {
+    content: "\e115";
+}
+.icon-wallet:before {
+    content: "\e116";
+}
+.icon-hourglass:before {
+    content: "\e11f";
+}
+.icon-megaphone:before {
+    content: "\e121";
+}
+.icon-flag:before {
+    content: "\e124";
+}
+.icon-map:before {
+    content: "\e125";
+}
+.icon-envelope:before {
+    content: "\e128";
+}
+.icon-attachment:before {
+    content: "\e12e";
+}
+.icon-tools:before {
+    content: "\e133";
+}
+.icon-circle-compass:before {
+    content: "\e138";
+}
+.icon-beaker:before {
+    content: "\e13c";
+}
+.icon-profile-male:before {
+    content: "\e140";
+}
+.icon-map-pin:before {
+    content: "\e147";
+}
+.icon-chat:before {
+    content: "\e149";
+}
+.icon-speedometer:before {
+    content: "\e151";
+}
+.icon-clock:before {
+    content: "\e155";
+}
+.icon-circle-left:before {
+    content: "\e90a";
+}
+.icon-new-tab:before {
+    content: "\e90d";
+}
+.icon-terminal2:before {
+    content: "\e906";
+}
+.icon-github2:before {
+    content: "\e907";
+}
+.icon-html5:before {
+    content: "\e908";
+}
+.icon-css3:before {
+    content: "\e909";
+}
+.icon-codepen2:before {
+    content: "\e90b";
+}
+
